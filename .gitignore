@@ -1,0 +1,11 @@
+# Dependencies
+node_modules/
+rfid-frontend/node_modules/
+rfid-backend/node_modules/
+
+# Environment Variables & Local Configs
+rfid-backend/.env
+rfid-backend/config.env
+
+# Production Builds
+rfid-frontend/build/
