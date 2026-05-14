@@ -35,7 +35,7 @@ Setup Backend:
 -------------------------------------------------
 
 Setup Frontend:
-Go to rfid-frontend/
-Run npm install
-Run npm run dev (for Vite) or npm start.
+- Go to rfid-frontend/
+- Run npm install
+- Run npm run dev (for Vite) or npm start.
 -------------------------------------------------
