@@ -23,9 +23,10 @@
 1. **Clone the repository:**
    ```bash
    git clone [https://github.com/sheikhnuml/rfid-campus-management-system.git](https://github.com/sheikhnuml/rfid-campus-management-system.git)
+   
 
-   Setup Backend:
 -------------------------------------------------
+Setup Backend:
 Go to rfid-backend/
 Run npm install
 Create a .env file with your MONGO_URI and PORT.
