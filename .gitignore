@@ -9,3 +9,5 @@ rfid-backend/config.env
 
 # Production Builds
 rfid-frontend/build/
+
+*.docx
