@@ -28,10 +28,10 @@
 -------------------------------------------------
 
 Setup Backend:
-Go to rfid-backend/
-Run npm install
-Create a .env file with your MONGO_URI and PORT.
-Run npm start
+- Go to rfid-backend/
+- Run npm install
+- Create a .env file with your MONGO_URI and PORT.
+- Run npm start
 -------------------------------------------------
 
 Setup Frontend:
