@@ -1,22 +1,74 @@
-# StudentSync: RFID-Based Smart Campus Management System
+# 🎓 StudentSync: RFID-Based Smart Campus Management System
 
-**StudentSync** is a MERN stack-based IoT solution designed to digitize campus activities using a single RFID card. This project integrates hardware (Raspberry Pi) with a modern web ecosystem to streamline attendance, payments, and library management.
+**StudentSync** is a professional IoT and MERN-stack solution designed to revolutionize campus life through automation. By utilizing a single RFID card, the system integrates hardware and software to manage attendance, cashless payments, library resources, and secure transport access.
 
-## 🚀 Key Features
-- **Attendance System:** Real-time presence logging via RFID tap.
-- **E-Wallet (Cafeteria):** Cashless transactions for students and staff.
-- **Library Management:** Easy book issuing and return tracking.
-- **Unified Dashboard:** Separate portals for Admins, Librarians, and Students.
+---
 
-## 🛠️ Tech Stack
-- **Frontend:** React.js, Tailwind CSS
-- **Backend:** Node.js, Express.js
-- **Database:** MongoDB Atlas (Cloud)
-- **Hardware Interface:** Python (Raspberry Pi 4)
+## 🏗️ System Architecture
+
+The system follows a modular architecture connecting physical hardware to a scalable cloud backend.
+
+* **Edge Device:** Raspberry Pi 4 running Python (CustomThinker logic).
+* **Backend:** Node.js & Express.js handling business logic.
+* **Database:** MongoDB Atlas for real-time cloud storage.
+* **Frontend:** React.js dashboards for administrative and student use.
+
+---
+
+## 🚀 Key Modules & Functionality
+
+### 📍 Attendance System
+- **Process:** Scan → UID Validation → Presence Logging → LCD Feedback.
+- **Goal:** Automated, tamper-proof attendance for students and staff.
+
+### 💳 E-Wallet (Cafeteria)
+- **Process:** Amount Input → RFID Tap → Balance Check → Deduction → Receipt Display.
+- **Goal:** Cashless campus environment with transaction history tracking.
+
+### 📚 Library Management
+- **Process:** Book ID Scan → Student Card Tap → Database Linking → Inventory Update.
+- **Goal:** Digital tracking of issued books and automated fine calculation.
+
+### 🚌 Transport & Gate Access
+- **Process:** Scan → Eligibility Verification → API Response → Access Granted/Denied.
+- **Goal:** Secure entry management based on student status.
+
+---
+
+## 🛠️ Technical Stack (Versions)
+
+| Technology | Purpose | Version |
+| :--- | :--- | :--- |
+| **Node.js** | Server Runtime | v20.x |
+| **Express.js** | Backend Framework | v4.19.x |
+| **React.js** | Frontend UI | v18.3.x |
+| **MongoDB** | Cloud Database | v7.0 (Atlas) |
+| **Python** | Hardware Controller | v3.11.x |
+| **Vite** | Frontend Tooling | v5.x |
+| **CSS3** | Custom Styling | Modern Standards |
+
+---
+
+## 📟 Hardware Components
+
+- **Controller:** Raspberry Pi 4 Model B (4GB RAM)
+- **RFID Reader:** MFRC522 (13.56MHz)
+- **Display:** 5-inch LCD Touchscreen (HDMI Interface)
+- **Audio/Visual:** Piezo Buzzer & LED Status Indicators
+- **Power:** 5V 3A Type-C Supply
+
+---
 
 ## 📂 Project Structure
-- `rfid-frontend/`: React application for dashboards and portals.
-- `rfid-backend/`: Express API for business logic and database management.
+
+```text
+StudentSync/
+├── rfid-backend/        # Node.js API, Models, Routes, Controllers
+├── rfid-frontend/       # React components, Pages, State Management
+└── docs/                # Project Diagrams & Documentation
+
+
+  
 
 ## ⚙️ Installation & Setup
 
